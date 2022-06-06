@@ -1,0 +1,96 @@
+
+    {% load static %}
+<!--
+<h3>Hello World!</h3>
+
+
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/LEKAN.jpeg' %}">
+                    <br>
+                    <h4>Hi I'm Lekan!</h4>
+                    <p>I love coding, doing research and collaborating</p>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h4>My First Job as a Developer</h4>
+                    <br>
+                    <p>
+                        Months after writing my first Hello World Program In JAVA(While learning programming at
+                        HIIT) I had convinced myself that I would start building a better version of systems.
+                    </p>
+                    <p>
+                        Before I know it I was already learning several new technologies. My newbie self was
+                        doing a lot of projects using several technologies.
+                    </p>
+                    <p>From this you will see that I'm someone that jumps before I can talk myself out of doing something scary.</p>
+
+                    <ul class="social-links">
+                        <li><img class="social" src="{% static 'images/instagram.png'  %}"></li>
+                        <li><img class="social" src="{% static 'images/linkedin.png'  %}"></li>
+                        <li><img class="social" src="{% static 'images/twitter.png'  %}"></li>
+                        <li><img class="social" src="{% static 'images/youtube.png'  %}"></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <br>
+          <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>My Experience as a Software Engineer</h5>
+                    <br>
+                    <p>Junior Software Engineer at Semicolon Africa</p>
+                    <p>Designed, built the backend side of a Diary Application.System allows one input
+                    information without pen and paper.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>What I Know</h5>
+                    <br>
+                    <p>Java, Springboot, HTML/CSS, JavaScript, React, MongoDB, MySQL and
+                    a whole bunch more I can't possibly mention in one sentence! ;)</p>
+                    <p>PS: Working on Node JS, Machine Learning, Data Science, and Data Analysis</p>
+                </div>
+            </div>
+        </div>
+    <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>How I Learn</h5>
+                <br>
+                    <p>Reverse Engineer & Build Ugly Prototypes First.</p>
+                    <p>I can learn just about anything by doing it over and over again. Getting materials that
+                    can help me learn the technology faster. Documentation is key!!!!</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>My Short Term Goals</h5>
+                 <br>
+                    <p>After almost two years of doing only JAVA I'm ready to learn something new. I would be picking up more technologies.</p>
+                    <p>Aside from building small projects I would love to enter a position where I can be a part of a bigger team
+                    and learn more from others with more experience than myself...</p>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+</body>
+</html>
